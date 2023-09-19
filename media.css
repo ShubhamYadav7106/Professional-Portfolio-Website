@@ -1,0 +1,348 @@
+@media(min-width:1400px){
+    /* header media css  */
+    .hamberger{
+        display: none;
+    }
+
+    /* section second  */
+    .box{
+        height: 100%;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+/* header media css  */
+.hamberger{
+    display: none;
+}
+
+/* section second  */
+.box{
+    height: 100%;
+}
+    /* section fourth media css  */
+    .section-fourth-box img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    /* header media css */
+.hamberger{
+    display: none;
+}
+    .header-title h1{
+        font-size: 55px;
+    }
+    .header-title p {
+        font-size: 16px;
+    }
+
+    /* section first media css  */
+    .section-first-descrption {
+        padding: 15px 0px 0;
+    }
+
+    /* section second media css  */
+    .section-second .box img {
+        left: 30%;
+        top: -24%;
+    }
+    .section-second .box{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section fourth media css  */
+    .section-fourth-box img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* section fivth media css  */
+    .cards-items {
+        padding: 40px 24px;
+    }
+
+    .section-fivth-box:hover{
+        transform: scale(0.9);
+        transition: all 0.4s;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    /* header  */
+    .hamberger{
+        display: none;
+    }
+    .header-title h1{
+        font-size: 40px;
+        padding-right: 25px;
+    }
+    .header-title p {
+        font-size: 14px;
+    }
+    .header-btn {
+        margin-bottom: 15px;
+    }
+    .navbar-button{
+        display: none;
+    }
+    /* section first media css  */
+    .section-first img{
+        width: 100%;
+    }
+    .section-first-descrption {
+        padding: 0px 0px 0;
+    }
+    .section-first-descrption p {
+        font-size: 14px;
+    }
+    
+    /* section second media css  */
+    
+    .box{
+        width: 100%;
+        height: 100%;
+    }
+    .section-second .box img {
+        position: absolute;
+        left: 24%;
+        top: -30%;
+    }
+    .section-second .box h6 {
+        font-size: 15px;
+        padding: 72px 0 0;
+    }
+
+    /* section fourth media css  */
+    .section-fourth img{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width:768px){
+    .navlist{
+    
+        opacity: 0; /* Initially hidden */
+        transition: all 0.5s; 
+        transform: translateX(-100%);
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+
+    
+
+    button{
+        width: 100%;
+    }
+    /* header  */
+    .navbar-button{
+        display: none;
+    }
+    .header-logo{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .header-man-img{
+        text-align: center;
+    }
+    .header-title h1{
+        font-size: 30px;
+    }
+    .header-title p {
+        font-size: 17px;
+    }
+    .header-man-img img{
+        width: 60%;
+    }
+    .header-title button{
+        margin-bottom: 20px;
+    }
+    .ul{
+        display: block;
+    }
+    .ul li{
+        padding-top: 15px;
+        color: var(--dark-color);
+    }
+    .ul li a{
+        color: var(--dark-color);
+        font-weight: 600;
+    }
+    nav{
+        padding-left: 10px;
+        background-color: var(--light-color);
+        padding-bottom: 10px;
+        position: absolute;
+        width: 95%;
+    }
+
+    /* section first media css  */
+    .section-first img{
+        width: 100%;
+    }
+    .section-first-descrption {
+        padding: 0px 0px 0;
+    }
+    .section-first-descrption {
+        font-size: 14px;
+        text-align: center;
+        padding: 30px 0 0;
+    }
+    .social-media{
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    /* section second media css  */
+    .section-second .box img {
+        position: absolute;
+        left: 36%;
+        top: -28%;
+    }
+    .section-second .box {
+        margin: 46px 0;
+    }
+    /* section fourth media css  */
+    .section-fourth img{
+        width: 100%;
+    }
+    .section-fourth-box{
+        margin: 30px 0;
+    }
+    .section-fourth-box img{
+        object-fit: cover;
+    }
+    .section-fourth{
+        padding: 60px 0 0;
+    }
+    
+
+    /* section fivth media css  */
+    .section-fivth-box{
+        margin: 30px 0;
+    }
+    .section-fivth-box:hover {
+        transform: scale(0.9);
+        transition: all 0.4s;
+    }
+    .section-fivth p {
+        font-size: 15px;
+    }
+    .cards-items{
+        text-align: center;
+    }
+    .main-footer img{
+        width: 60%;
+    }
+
+}
+@media (max-width:575px) {
+    button{
+        width: 100%;
+    }
+    /* header media css  */
+    .header-logo{
+        padding: 15px ;
+    }
+    .navbar-button{
+        display: none;
+    }
+    .header-man-img{
+        text-align: center;
+    }
+    .ul{
+        display: block;
+    }
+    .ul li{
+        padding-top: 15px;
+        color: var(--dark-color);
+    }
+    .ul li a{
+        color: var(--dark-color);
+        font-weight: 600;
+    }
+    nav{
+        padding-left: 10px;
+        background-color: var(--light-color);
+        padding-bottom: 10px;
+        position: absolute;
+        width: 95%;
+    }
+    .header-title h1{
+        font-size: 25px;
+    }
+    .header-title p {
+        font-size: 16px;
+    }
+    .header-man-img img{
+        width: 60%;
+    }
+    .header-title button{
+        margin-bottom: 20px;
+    }
+
+
+    /* section first media css  */
+    .section-first img{
+        width: 100%;
+    }
+    .section-first-descrption {
+        padding: 0px 0px 0;
+    }
+    .section-first-descrption {
+        font-size: 14px;
+        text-align: center;
+        padding: 30px 0 0;
+    }
+    .social-media{
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    /* section second media css  */
+    .section-second .box img {
+        position: absolute;
+        left: 34%;
+        top: -28%;
+    }
+    .section-second .box {
+        margin: 46px 0;
+    }
+
+    /* section fourth media css  */
+    .section-fourth-box{
+        margin: 30px 0;
+    }
+    .section-fourth img{
+        width: 100%;
+    }
+    .section-fourth-box img{
+        object-fit: cover;
+    }
+    .section-fourth{
+        padding: 60px 0 0;
+    }
+    
+    /* section fivth media css  */
+    .section-fivth-box{
+        margin: 30px 0;
+    }
+    .section-fivth p {
+        font-size: 15px;
+    }
+    .section-fivth-box:hover {
+        transform: scale(0.9);
+        transition: all 0.4s;
+    }
+    .cards-items{
+        text-align: center;
+    }
+    
+    /* footer media css */
+    .main-footer img{
+        width: 60%;
+    }
+}
